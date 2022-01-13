@@ -1,7 +1,7 @@
 import {Flex} from '@chakra-ui/react'
 
 const SignUpLayout: React.FC = ({children}) => (
-  <Flex flexDir="column" maxW="md" mx="auto" flex="1">
+  <Flex flexDir="column" flex="1" width="100%">
     {children}
   </Flex>
 )

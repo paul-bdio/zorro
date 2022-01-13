@@ -51,7 +51,7 @@ const IntroPage: React.FC<{
       <Spacer display={['initial', 'none']} />
       <Button
         as={RLink}
-        href={routes.signUpConnectWallet()}
+        href={routes.signUpSteps()}
         colorScheme="purple"
       >
         Let's go!
